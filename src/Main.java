@@ -26,7 +26,7 @@ public class Main {
                     }
                 } else if (input == 2) {
                     Metodos.getListaAluno().sort(new Comparador());
-                    Metodos.getListaAluno().forEach(a -> System.out.println(a)); //For-each utilizando lambda
+                    Metodos.getListaAluno().forEach(a -> System.out.println(a.imprimir)); //For-each utilizando lambda
                 }
             } else if (input == 2) {
                 System.out.println("---------Remover Alunos----------");
